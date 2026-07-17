@@ -22,7 +22,7 @@ For quick testing and review, you can use the following pre-configured credentia
 
 | Email | Password | Display Name | Note |
 | :--- | :--- | :--- | :--- |
-| `shay@gmail.com` | `shay123` | Shay Argman | Student Account |
+| `shay@gmail.com` | `shay123` | Shay Argaman | My Personal Account |
 | `chef@gmail.com` | `shay123` | ChefShare Community | Seed Data Account |
 
 ---
