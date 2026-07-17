@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Spacing, radii and component sizes from the Stitch 4dp-baseline design system. -->
+<resources>
+    <!-- Spacing scale -->
+    <dimen name="space_unit">4dp</dimen>
+    <dimen name="stack_sm">8dp</dimen>
+    <dimen name="stack_md">16dp</dimen>
+    <dimen name="stack_lg">24dp</dimen>
+    <dimen name="margin_screen">16dp</dimen>
+    <dimen name="gutter">16dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="radius_input">12dp</dimen>
+    <dimen name="radius_card">16dp</dimen>
+    <dimen name="radius_dialog">24dp</dimen>
+
+    <!-- Component sizes -->
+    <dimen name="input_height">56dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="logo_size">120dp</dimen>
+    <dimen name="card_image_height">200dp</dimen>
+    <dimen name="hero_image_height">320dp</dimen>
+</resources>

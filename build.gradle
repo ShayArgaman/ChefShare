@@ -1,0 +1,8 @@
+// Top-level build file. Declares the plugin versions shared by all modules.
+// `apply false` means "make the plugin available" without applying it to the root project.
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.24' apply false
+    // Google Services plugin: reads app/google-services.json and wires up Firebase.
+    id 'com.google.gms.google-services' version '4.4.2' apply false
+}

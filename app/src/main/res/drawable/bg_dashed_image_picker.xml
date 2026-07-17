@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dashed, rounded rectangle used as the gallery image-picker placeholder on Add Recipe. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/surface_container_low" />
+    <corners android:radius="@dimen/radius_card" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/outline_variant"
+        android:dashWidth="8dp"
+        android:dashGap="6dp" />
+</shape>

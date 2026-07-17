@@ -1,0 +1,19 @@
+// Declares repositories for plugins and dependencies, and the modules in this project.
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    // Fail if a module declares its own repositories — keeps dependency sources centralized here.
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "ChefShare"
+include ':app'

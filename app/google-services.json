@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770677415846",
+    "project_id": "chefshare-b3d57",
+    "storage_bucket": "chefshare-b3d57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770677415846:android:88857ecc8d37d69b2ff967",
+        "android_client_info": {
+          "package_name": "com.chefshare.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJaPijOFvQJK4ux02IwuisW5d9MOiXa1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Profile / favorites summary. -->
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_person"
+        android:title="@string/cd_profile"
+        app:showAsAction="ifRoom" />
+
+    <!-- Sign out lives in the feed's top app bar. -->
+    <item
+        android:id="@+id/action_sign_out"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/action_sign_out"
+        app:showAsAction="ifRoom" />
+</menu>

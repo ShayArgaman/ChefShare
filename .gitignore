@@ -1,0 +1,16 @@
+# --- Gradle build outputs (root + every module, e.g. app/build) ---
+build/
+.gradle/
+
+# --- Local machine config (SDK path, signing, etc.) — never commit ---
+local.properties
+
+# --- Android Studio / IntelliJ IDE files ---
+.idea/
+*.iml
+.DS_Store
+
+# --- Native/other build tooling artifacts ---
+/captures
+.externalNativeBuild
+.cxx

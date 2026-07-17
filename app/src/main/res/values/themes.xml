@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base app theme mapping the ChefShare palette onto Material 3 semantic roles. -->
+    <style name="Base.Theme.ChefShare" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary = emerald action color; text/icons on it are deep green (per design). -->
+        <item name="colorPrimary">@color/emerald</item>
+        <item name="colorOnPrimary">@color/emerald_darkest</item>
+        <item name="colorPrimaryContainer">@color/emerald</item>
+        <item name="colorOnPrimaryContainer">@color/emerald_darkest</item>
+
+        <!-- Secondary = deeper green, used for links / high-contrast accents. -->
+        <item name="colorSecondary">@color/emerald_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/emerald_container_light</item>
+        <item name="colorOnSecondaryContainer">@color/emerald_darkest</item>
+
+        <!-- Surfaces -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface_lowest</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_container_highest</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+
+        <!-- System bars blend with the light UI. -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface_container</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <!-- Public theme name referenced by the manifest. -->
+    <style name="Theme.ChefShare" parent="Base.Theme.ChefShare" />
+
+    <!-- Splash theme (androidx.core:core-splashscreen). The launcher activity uses this,
+         then installSplashScreen() swaps to Theme.ChefShare once the app is ready. -->
+    <style name="Theme.ChefShare.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.ChefShare</item>
+    </style>
+</resources>

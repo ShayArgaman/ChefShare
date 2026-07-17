@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChefShare</string>
+    <string name="tagline">Discover and share your favorite recipes.</string>
+    <string name="logo_content_description">ChefShare logo</string>
+
+    <!-- Generic, friendly error messages surfaced via Toasts (crash-prevention strategy). -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">Network error. Check your connection and retry.</string>
+
+    <!-- ===== Login / Signup screen ===== -->
+    <string name="hint_name">Full name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="divider_or">OR</string>
+    <string name="subtitle_sign_in">Welcome back! Sign in to continue.</string>
+    <string name="subtitle_sign_up">Create an account to start sharing.</string>
+    <string name="prompt_no_account">Don\'t have an account? </string>
+    <string name="prompt_have_account">Already have an account? </string>
+    <string name="reset_email_sent">Password reset email sent. Check your inbox.</string>
+
+    <!-- Inline validation messages -->
+    <string name="error_name_required">Please enter your name.</string>
+    <string name="error_email_required">Please enter your email.</string>
+    <string name="error_email_invalid">Please enter a valid email address.</string>
+    <string name="error_password_length">Password must be at least 6 characters.</string>
+    <string name="error_enter_email_first">Enter your email above first.</string>
+
+    <!-- ===== Community Feed screen ===== -->
+    <string name="action_sign_out">Sign Out</string>
+    <string name="feed_search_hint">Search recipes…</string>
+    <string name="feed_empty">No recipes yet. Be the first to share!</string>
+    <string name="feed_no_results">No recipes match your search.</string>
+    <string name="feed_favorites_empty">No favorite recipes yet! Tap the heart icon on any recipe to save it here.</string>
+    <string name="action_retry">Retry</string>
+    <string name="by_author">By %1$s</string>
+    <string name="category_all">All</string>
+    <string name="category_breakfast">Breakfast</string>
+    <string name="category_lunch">Lunch</string>
+    <string name="category_dinner">Dinner</string>
+    <string name="category_dessert">Dessert</string>
+    <string name="category_favorites">Favorites</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="cd_recipe_photo">Recipe photo</string>
+    <string name="cd_favorite">Add or remove from favorites</string>
+    <string name="cd_add_recipe">Add a new recipe</string>
+    <string name="cd_profile">Profile and favorites summary</string>
+    <string name="profile_summary">Signed in as %1$s · %2$d favorite(s)</string>
+
+    <!-- ===== Add Recipe screen ===== -->
+    <string name="add_recipe_title">Create Recipe</string>
+    <string name="hint_recipe_title">Recipe Title</string>
+    <string name="hint_instructions">Instructions</string>
+    <string name="hint_ingredient">Add ingredient…</string>
+    <string name="label_ingredients">Ingredients</string>
+    <string name="label_category">Category</string>
+    <string name="action_add">Add</string>
+    <string name="action_publish">Publish Recipe</string>
+    <string name="upload_food_photo">Upload Food Photo</string>
+    <string name="uploading_photo_pct">Uploading photo… %1$d%%</string>
+    <string name="publishing">Publishing…</string>
+    <string name="toast_recipe_published">Recipe published successfully!</string>
+    <string name="cd_upload_photo">Upload food photo</string>
+
+    <!-- Add Recipe validation -->
+    <string name="error_title_required">Please enter a recipe title.</string>
+    <string name="error_ingredients_required">Add at least one ingredient.</string>
+    <string name="error_instructions_required">Please add preparation instructions.</string>
+    <string name="error_category_required">Please choose a category.</string>
+    <string name="error_not_signed_in">You must be signed in to publish.</string>
+
+    <string name="detail_placeholder">Recipe details open in the final screen.</string>
+
+    <!-- ===== Recipe Detail screen ===== -->
+    <string name="section_ingredients">Ingredients</string>
+    <string name="section_preparation">Preparation</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_hero_image">Recipe photo</string>
+    <string name="recipe_not_found">Recipe not found.</string>
+</resources>
