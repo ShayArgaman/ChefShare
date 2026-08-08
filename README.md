@@ -28,7 +28,7 @@ ChefShare is designed as a clean, distraction-free platform where home cooks can
 
 | Login Screen | Community Feed | Add Recipe | Recipe Details |
 | :---: | :---: | :---: | :---: |
-| <img src="docs/screenshots/login.png" width="200"/> | <img src="docs/screenshots/feed.png" width="200"/> | <img src="docs/screenshots/add.png" width="200"/> | <img src="docs/screenshots/detail.png" width="200"/> |
+| <img src="docs/screenshots/login.jpeg" width="200"/> | <img src="docs/screenshots/feed.jpeg" width="200"/> | <img src="docs/screenshots/add.jpeg" width="200"/> | <img src="docs/screenshots/detail.jpeg" width="200"/> |
 
 ---
 
