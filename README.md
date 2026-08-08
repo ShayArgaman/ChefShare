@@ -16,6 +16,22 @@ ChefShare is designed as a clean, distraction-free platform where home cooks can
 
 ---
 
+## Demo Video
+
+[![Watch the Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/fwZNozKN20o))
+
+> *Click the image above to watch the full walkthrough on YouTube (or replace with your Drive/Vimeo link).*
+
+---
+
+## App Screenshots
+
+| Login Screen | Community Feed | Add Recipe | Recipe Details |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/screenshots/login.png" width="200"/> | <img src="docs/screenshots/feed.png" width="200"/> | <img src="docs/screenshots/add.png" width="200"/> | <img src="docs/screenshots/detail.png" width="200"/> |
+
+---
+
 ## Demo Accounts
 
 For quick testing and review, you can use the following pre-configured credentials:
